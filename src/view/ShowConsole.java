@@ -17,7 +17,14 @@ public class ShowConsole {
         int code = scaner.nextInt();
         return code;
     }
+    public String inputName() {
+        scaner.nextLine(); 
+        System.out.print("Ingrese el nombre de la persona: ");
+        return scaner.nextLine();
+    }
+      
     public void showMessage(String message) {
         System.out.println(message);
     }
+
 }
